@@ -20,7 +20,7 @@ app.Router = Backbone.Router.extend({
     this._currentView = view;
     // Render is asynchronous with LayoutManager
     view.render().done(function(view) {
-        $('#main').append(view.el);
+        $('#content').append(view.el);
     });
   },
  
