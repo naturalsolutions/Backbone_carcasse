@@ -12,6 +12,7 @@ var app = {
   utils: {}
 };
 
+
 // ----------------------------------------------- The Application initialisation ------------------------------------------ //
 $().ready(function() {
   init();

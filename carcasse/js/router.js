@@ -4,13 +4,9 @@
 
 app.Router = Backbone.Router.extend({
   
-  routes: {
-   
-  },
+  routes: {},
 
-  initialize: function() {
-
-  },
+  initialize: function() {},
 
   displayView : function (view) {
     if (this._currentView) {
