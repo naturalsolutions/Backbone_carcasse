@@ -8,8 +8,10 @@ var app = {
   },
   dao: {},
   models: {},
+  collections: {},
   views: {},
-  utils: {}
+  instances: {},
+  utilities: {}
 };
 
 
